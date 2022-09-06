@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* background-color: chartreuse; */
+    justify-content: space-between;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin-right: 3rem;
+    justify-content: center;
+   align-items: center;
+}
+.navbar ul li{
+    color: rgb(148, 64, 120);
+    text-transform: uppercase;
+    display: flex;
+    cursor: pointer;
+    font-weight: bold;
+    
+   
+}
+.navbar img{
+    width: 7rem;
+    height: 4rem;
+    margin-left: 2rem;
+}

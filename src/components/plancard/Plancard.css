@@ -1,0 +1,95 @@
+.plancard {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.p-text {
+    display: flex;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 34px;
+    justify-content: center;
+    font-style: italic !important;
+    color: white;
+    font-weight: bold;
+    gap: 3rem;
+    margin: 1rem 0rem;
+}
+
+.card {
+    display: flex;
+    place-items: center;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: darkslategray;
+}
+
+.cards> :nth-child(1) {
+    fill: white;
+    height: 25px;
+    width: 25px;
+}
+
+.cards> :nth-child(2) {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.cards> :nth-child(3) {
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+}
+
+.fea> img{
+    transform: scale(0.5);
+}
+.fea{
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-items: center;
+    /* text-align: center; */
+}
+.cards:nth-child(2){
+    transform: scale(1.2);
+    background-color: rgb(172, 117, 16);
+}
+.see{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.see span:nth-of-type(1){
+    color: white;
+}
+.see span:nth-of-type(2){
+    color: white;
+    font-size: 2rem;
+}
+.r-btn{
+    display: flex;
+    place-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}

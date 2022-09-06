@@ -1,0 +1,30 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 2rem;
+
+}
+.foot1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.foot1>img{
+    
+    height: 3rem;
+    width: 3rem;
+}
+.foot2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot2 > img{
+    height: 4rem;
+    width: fit-content;
+}

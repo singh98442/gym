@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+:root {
+    --grayDark: #3A3B3C;
+    --marbleBlue: #566D7E;
+    --turtleGreen: #438D80;
+    --creamWhite: #FFFDD0;
+    --chromeGold: #FFCE44;
+    --puceDark: #7F5A58;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: var(--creamWhite);
+    font-family: 'DynaPuff', cursive;
+    background-image: url(../public/background-gym.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.foothr {
+    width: 100%;
+    border: 2px solid white;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blur{
+    background-color: rgb(102, 24, 24);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(200px);
+    z-index: -9;
+    height: 20rem;
+    width: 15rem;
 }
